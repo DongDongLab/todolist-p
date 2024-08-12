@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaRegTrashAlt } from 'react-icons/fa';
 export default function Todo({ todo, onUpdate, onDelete }) {
-  const { text, status } = todo;
+  const { text, status, id } = todo;
 
   const handleChange = (e) => {
     const status = e.target.checked ? 'complete' : 'active';
@@ -15,9 +15,9 @@ export default function Todo({ todo, onUpdate, onDelete }) {
         type='checkbox'
         onChange={handleChange}
         checked={status === 'complete'}
-        id='checkbox'
+        id={id}
       />
-      <label htmlFor='checkbox'>{text}</label>
+      <label htmlFor={id}>{text}</label>
       <button onClick={handleDelete}>
         <FaRegTrashAlt />
       </button>
