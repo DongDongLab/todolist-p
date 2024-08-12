@@ -33,6 +33,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-react-app", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:7.0.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:18.3.1"],\
+          ["react-icons", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:5.2.1"],\
           ["react-scripts", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:5.0.1"],\
           ["uuid", "npm:10.0.0"],\
           ["web-vitals", "npm:2.1.4"]\
@@ -15253,6 +15254,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-icons", [\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../Users/vpdlx/AppData/Local/Yarn/Berry/cache/react-icons-npm-5.2.1-e27cbb9ccf-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "npm:5.2.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:5.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/react-icons-virtual-fa1d6adebe/4/Users/vpdlx/AppData/Local/Yarn/Berry/cache/react-icons-npm-5.2.1-e27cbb9ccf-10c0.zip/node_modules/react-icons/",\
+        "packageDependencies": [\
+          ["react-icons", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:5.2.1"],\
+          ["@types/react", null],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-is", [\
       ["npm:16.13.1", {\
         "packageLocation": "../../../Users/vpdlx/AppData/Local/Yarn/Berry/cache/react-is-npm-16.13.1-a9b9382b4f-10c0.zip/node_modules/react-is/",\
@@ -17049,6 +17072,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config-react-app", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:7.0.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:18.3.1"],\
+          ["react-icons", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:5.2.1"],\
           ["react-scripts", "virtual:5970e765f1961d4d60ee505c9d9d26b07927bf5d3c349370286ebee4ea2b7d3159fb49cce4d0a7a7fa05e53a70e719d701d5899fc4ada6a40a0480793285e0f7#npm:5.0.1"],\
           ["uuid", "npm:10.0.0"],\
           ["web-vitals", "npm:2.1.4"]\
