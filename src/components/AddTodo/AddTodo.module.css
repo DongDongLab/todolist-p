@@ -1,0 +1,33 @@
+.formWrap {
+  background: var(--color-bg-dark);
+  padding: 10px 15px;
+  border-radius: 0 0 15px 15px;
+}
+.formWrap form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  color: var(--color-text);
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--color-white);
+  background: var(--color-accent);
+  font-weight: bold;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.button:hover {
+  opacity: 1;
+}

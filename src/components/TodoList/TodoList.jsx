@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AddTodo from '../AddTodo/AddTodo';
 import Todo from '../Todo/Todo';
+import styles from './TodoList.module.css';
 // import Header from '../Header/Header';
 
 export default function Todolist({ selected }) {
@@ -32,7 +33,7 @@ export default function Todolist({ selected }) {
   };
 
   return (
-    <section>
+    <section className={styles.section}>
       <ul>
         {filtered.map((item) => (
           <Todo

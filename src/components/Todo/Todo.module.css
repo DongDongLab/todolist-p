@@ -1,0 +1,30 @@
+.li {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.li label {
+  color: var(--color-text);
+  margin-left: 10px;
+  font-size: 20px;
+  flex: 1 1 0%;
+  font-weight: bold;
+}
+
+.li button {
+  color: var(--color-accent);
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.li button:hover {
+  opacity: 1;
+}

@@ -1,12 +1,23 @@
 import React from 'react';
-
-export default function Header({ filters, filter, onFilterChange }) {
+import styles from './Header.module.css';
+import { BsSun } from 'react-icons/bs';
+export default function Header({ filters, selected, onFilterChange }) {
   return (
-    <header>
+    <header className={styles.header}>
+      <div className={styles.darkmode}>
+        <BsSun />
+      </div>
       <ul>
         {filters.map((value, idx) => (
           <li key={idx}>
-            <button onClick={() => onFilterChange(value)}>{value}</button>
+            <button
+              className={`${styles.filter} ${
+                selected === value && styles.selected
+              }`}
+              onClick={() => onFilterChange(value)}
+            >
+              {value}
+            </button>
           </li>
         ))}
       </ul>

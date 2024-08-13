@@ -1,0 +1,6 @@
+.section ul {
+  height: 600px;
+  padding: 0 20px;
+  background: var(--color-bg);
+  overflow: auto;
+}
