@@ -1,3 +1,6 @@
+react를 사용해 todolist를 만들었습니다.
+[https://kdw-react-todo.netlify.app/](https://kdw-react-todo.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
