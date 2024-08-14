@@ -1,13 +1,4 @@
-html.dark {
-  --color-bg-dark: #303030;
-  --color-bg: #4b4b4b;
-  --color-grey: #d1d1d1;
-  --color-text: #ffffff;
-  --color-accent: #f16e03;
-  --color-white: #fff;
-  --color-scrollbar: #b1b1b1;
-}
-html {
+:root {
   --color-bg-dark: #ececec;
   --color-bg: #fdfffd;
   --color-grey: #d1d1d1;
@@ -15,6 +6,12 @@ html {
   --color-accent: #f16e03;
   --color-white: #fff;
   --color-scrollbar: #b1b1b1;
+}
+html.dark {
+  --color-bg-dark: #303030;
+  --color-bg: #4b4b4b;
+  --color-grey: #d1d1d1;
+  --color-text: #ffffff;
 }
 * {
   padding: 0;
