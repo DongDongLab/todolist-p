@@ -1,21 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import AddTodo from '../AddTodo/AddTodo';
 import Todo from '../Todo/Todo';
 import styles from './TodoList.module.css';
-// import Header from '../Header/Header';
 
 export default function Todolist({ selected }) {
-  const [todos, setTodos] = useState([
-    { id: '123', text: '장보기', status: 'active' },
-    { id: '124', text: '공부하기', status: 'active' },
-  ]);
+  const [todos, setTodos] = useState(() => readTodo());
   const filtered = getFilteredItem(todos, selected);
-  function getFilteredItem(todos, selected) {
-    if (selected === 'all') {
-      return todos;
-    }
-    return todos.filter((item) => item.status === selected);
-  }
 
   const handleAdd = (todo) => {
     setTodos([...todos, todo]);
@@ -26,6 +16,10 @@ export default function Todolist({ selected }) {
       todos.map((item) => (item.id === updated.id ? updated : item))
     );
   };
+
+  useEffect(() => {
+    localStorage.setItem('todos', JSON.stringify(todos));
+  }, [todos]);
 
   const handleDelete = (delelted) => {
     setTodos((todos) => todos.filter((item) => item.id !== delelted.id));
@@ -46,4 +40,16 @@ export default function Todolist({ selected }) {
       <AddTodo onAdd={handleAdd} />
     </section>
   );
+}
+
+function getFilteredItem(todos, selected) {
+  if (selected === 'all') {
+    return todos;
+  }
+  return todos.filter((item) => item.status === selected);
+}
+
+function readTodo() {
+  const todos = localStorage.getItem('todos');
+  return todos ? JSON.parse(todos) : [];
 }
