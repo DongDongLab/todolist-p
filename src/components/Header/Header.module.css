@@ -1,5 +1,5 @@
 .header {
-  background: var(--color-bd-dark);
+  background: var(--color-bg-dark);
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -11,9 +11,6 @@
   cursor: pointer;
   color: var(--color-accent);
   opacity: 1;
-}
-.darkmode:hover {
-  filter: brightness(125%);
 }
 .header ul {
   display: flex;

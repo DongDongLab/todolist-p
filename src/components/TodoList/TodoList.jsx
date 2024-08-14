@@ -9,7 +9,6 @@ export default function Todolist({ selected }) {
     { id: '123', text: '장보기', status: 'active' },
     { id: '124', text: '공부하기', status: 'active' },
   ]);
-
   const filtered = getFilteredItem(todos, selected);
   function getFilteredItem(todos, selected) {
     if (selected === 'all') {

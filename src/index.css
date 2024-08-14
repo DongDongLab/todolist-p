@@ -1,4 +1,13 @@
-:root {
+html.dark {
+  --color-bg-dark: #303030;
+  --color-bg: #4b4b4b;
+  --color-grey: #d1d1d1;
+  --color-text: #ffffff;
+  --color-accent: #f16e03;
+  --color-white: #fff;
+  --color-scrollbar: #b1b1b1;
+}
+html {
   --color-bg-dark: #ececec;
   --color-bg: #fdfffd;
   --color-grey: #d1d1d1;
@@ -45,7 +54,6 @@ body {
 }
 
 #root {
-  background: var(--color-bg-dark);
   border-radius: 15px;
   width: 100%;
   max-width: 500px;

@@ -6,10 +6,6 @@
   width: 100%;
   position: relative;
 }
-.checkbox {
-  width: 20px;
-  height: 20px;
-}
 .li label {
   color: var(--color-text);
   margin-left: 10px;
@@ -27,4 +23,8 @@
 }
 .li button:hover {
   opacity: 1;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
 }
